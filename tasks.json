@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "name": "Clean the house!",
+            "priority": "5",
+            "description": "Lorem ipsum....",
+            "is_done": true
+        },
+        {
+            "id": 2,
+            "name": "Wash the dishes",
+            "priority": "2",
+            "description": "Lorem ipsum....",
+            "is_done": false
+        },
+        {
+            "id": 3,
+            "name": "Sleep a little",
+            "priority": "3",
+            "description": "Lorem ipsum....",
+            "is_done": false
+        },
+        {
+            "id": 4,
+            "name": "Smoke a cigarette",
+            "priority": "5",
+            "description": "Lorem ipsum....",
+            "is_done": false
+        }
+    ]
+}
