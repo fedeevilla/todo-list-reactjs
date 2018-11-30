@@ -21,6 +21,9 @@ const card = {
 
 class Task extends Component {
 
+  componentDidMount() {
+  }
+  
   renderPriority = (id) => {
     if (id === 1) {
       return (<Fragment><Chip label="Low" variant="outlined" /></Fragment>)
@@ -36,7 +39,6 @@ class Task extends Component {
   }
   //style={this.props.task.is_done ? card_done : card}>
   render() {
-
     return (
       <Card style={card}>
         <CardContent>

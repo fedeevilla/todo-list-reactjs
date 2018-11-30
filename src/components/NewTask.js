@@ -67,6 +67,7 @@ export default class NewTask extends Component {
     };
 
     render() {
+
         return (
             <Fragment>
                 <Button onClick={this.handleClickOpen} variant="contained" color="secondary">Add a task
@@ -116,9 +117,7 @@ export default class NewTask extends Component {
                                         labelWidth={this.state.priority}
                                         name="age"
                                         id="outlined-age-simple"
-                                    />
-                                }
-                            >
+                                    />}>
                                 <MenuItem value={1}>Low</MenuItem>
                                 <MenuItem value={2}>Medium</MenuItem>
                                 <MenuItem value={3}>High</MenuItem>
