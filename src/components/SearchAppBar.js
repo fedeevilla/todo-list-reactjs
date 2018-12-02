@@ -8,8 +8,6 @@ import { fade } from "@material-ui/core/styles/colorManipulator";
 import { withStyles } from "@material-ui/core/styles";
 import SearchIcon from "@material-ui/icons/Search";
 import Badge from "@material-ui/core/Badge";
-import AddIcon from "@material-ui/icons/Add";
-import Fab from "@material-ui/core/Fab";
 
 const styles = theme => ({
   root: {
@@ -68,14 +66,6 @@ const styles = theme => ({
         width: 200
       }
     }
-  },
-  fabButton: {
-    position: "absolute",
-    zIndex: 1,
-    top: 30,
-    left: 0,
-    right: 0,
-    margin: "0 auto"
   }
 });
 
@@ -115,7 +105,7 @@ function SearchAppBar(props) {
             </div>
             <InputBase
               onChange={event => handleShowing(event)}
-              placeholder="Search…"
+              placeholder="Search task…"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput

@@ -16,7 +16,7 @@ const chip_done = {
   backgroundColor: "#DAF7A6"
 };
 const chip_pending = {
-  backgroundColor: "#F1948A"
+  backgroundColor: "#FACC2E"
 };
 
 class Task extends Component {
